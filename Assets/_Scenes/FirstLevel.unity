@@ -1825,7 +1825,7 @@ MonoBehaviour:
   countText: {fileID: 2129443790}
   winTextObject: {fileID: 137948647}
   popAudio: {fileID: 8300000, guid: d4b4564ad8ca7254c9d41efb905858eb, type: 3}
-  winnerWinner: {fileID: 8300000, guid: c12509e73b86d07419009fee79e8c623, type: 3}
+  winnerWinner: {fileID: 8300000, guid: d087651c346dfbd45892a27071f8bb3b, type: 3}
 --- !u!114 &1263745780
 MonoBehaviour:
   m_ObjectHideFlags: 0

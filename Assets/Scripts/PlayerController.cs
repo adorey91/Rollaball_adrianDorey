@@ -10,9 +10,9 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
 
-    public AudioClip popAudio;      // creates variable for audio clip
-    public AudioClip winnerWinner; // creates variable for winning clip
-
+    public AudioClip popAudio;      // creates variable for pickup pop
+    public AudioClip winnerWinner;
+    
     private Rigidbody rb;
     private int count;
     private float movementX;
@@ -43,9 +43,8 @@ public class PlayerController : MonoBehaviour
         if (count >= 12)
         {
             winTextObject.SetActive(true);
-            GetComponent<AudioSource>().clip = winnerWinner; // audio source is winner winner
-            GetComponent<AudioSource>().Play(); // plays audio source
-
+            GetComponent<AudioSource>().clip = winnerWinner;
+            GetComponent<AudioSource>().Play();
         }
     }
     void FixedUpdate()
